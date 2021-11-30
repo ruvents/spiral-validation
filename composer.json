@@ -1,0 +1,27 @@
+{
+    "name": "ruvents/spiral-validation",
+    "description": "Data validation",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Ruvents\\SpiralValidation\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "spiral/framework": "^2.8",
+        "doctrine/annotations": "1.13.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5.10",
+        "ruvents/spiral-property-accessor": "dev-packages"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../spiral-property-accessor"
+        }
+    ]
+}
